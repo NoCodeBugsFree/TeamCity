@@ -90,7 +90,7 @@ void ATeamCityCharacter::OnResetVR()
 
 void ATeamCityCharacter::TouchStarted(ETouchIndex::Type FingerIndex, FVector Location)
 {
-		Jump()
+		Jump();
 }
 
 void ATeamCityCharacter::TouchStopped(ETouchIndex::Type FingerIndex, FVector Location)
